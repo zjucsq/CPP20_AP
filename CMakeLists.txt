@@ -6,7 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-file(GLOB CPP_FILES "${CMAKE_CURRENT_SOURCE_DIR}/c5/*.cpp")
+file(GLOB CPP_FILES "${CMAKE_CURRENT_SOURCE_DIR}/*/*.cpp")
 
 set(NOT_COMPILE "")
 
